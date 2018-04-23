@@ -1,0 +1,4 @@
+﻿  include_juce_audio_plugin_client_VST2.cpp
+     Creating library C:\Users\Gabriel\Documents\MidSideGit\Builds\VisualStudio2015\x64\Debug\VST\MidSideGit.lib and object C:\Users\Gabriel\Documents\MidSideGit\Builds\VisualStudio2015\x64\Debug\VST\MidSideGit.exp
+  MidSideGit_VST.vcxproj -> C:\Users\Gabriel\Documents\MidSideGit\Builds\VisualStudio2015\x64\Debug\VST\MidSideGit.dll
+  MidSideGit_VST.vcxproj -> x64\Debug\VST\\MidSideGit.pdb (Full PDB)
