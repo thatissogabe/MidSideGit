@@ -1,12 +1,12 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2015
 
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MidSideGit - VST", "MidSideGit_VST.vcxproj", "{88132CFE-5DEB-A3A6-8F88-BE364B2EEB04}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MidSideGit - VST", "MidSideGit_VST.vcxproj", "{6B3280AC-C7BE-B838-DA70-21173EC73882}"
 	ProjectSection(ProjectDependencies) = postProject
-		{743BF6D7-0539-8F78-5392-A647F7065BDD} = {743BF6D7-0539-8F78-5392-A647F7065BDD}
+		{CCA418B8-4800-BC47-B570-C63830D8A63F} = {CCA418B8-4800-BC47-B570-C63830D8A63F}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MidSideGit - Shared Code", "MidSideGit_SharedCode.vcxproj", "{743BF6D7-0539-8F78-5392-A647F7065BDD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MidSideGit - Shared Code", "MidSideGit_SharedCode.vcxproj", "{CCA418B8-4800-BC47-B570-C63830D8A63F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,14 +14,14 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{88132CFE-5DEB-A3A6-8F88-BE364B2EEB04}.Debug|x64.ActiveCfg = Debug|x64
-		{88132CFE-5DEB-A3A6-8F88-BE364B2EEB04}.Debug|x64.Build.0 = Debug|x64
-		{88132CFE-5DEB-A3A6-8F88-BE364B2EEB04}.Release|x64.ActiveCfg = Release|x64
-		{88132CFE-5DEB-A3A6-8F88-BE364B2EEB04}.Release|x64.Build.0 = Release|x64
-		{743BF6D7-0539-8F78-5392-A647F7065BDD}.Debug|x64.ActiveCfg = Debug|x64
-		{743BF6D7-0539-8F78-5392-A647F7065BDD}.Debug|x64.Build.0 = Debug|x64
-		{743BF6D7-0539-8F78-5392-A647F7065BDD}.Release|x64.ActiveCfg = Release|x64
-		{743BF6D7-0539-8F78-5392-A647F7065BDD}.Release|x64.Build.0 = Release|x64
+		{6B3280AC-C7BE-B838-DA70-21173EC73882}.Debug|x64.ActiveCfg = Debug|x64
+		{6B3280AC-C7BE-B838-DA70-21173EC73882}.Debug|x64.Build.0 = Debug|x64
+		{6B3280AC-C7BE-B838-DA70-21173EC73882}.Release|x64.ActiveCfg = Release|x64
+		{6B3280AC-C7BE-B838-DA70-21173EC73882}.Release|x64.Build.0 = Release|x64
+		{CCA418B8-4800-BC47-B570-C63830D8A63F}.Debug|x64.ActiveCfg = Debug|x64
+		{CCA418B8-4800-BC47-B570-C63830D8A63F}.Debug|x64.Build.0 = Debug|x64
+		{CCA418B8-4800-BC47-B570-C63830D8A63F}.Release|x64.ActiveCfg = Release|x64
+		{CCA418B8-4800-BC47-B570-C63830D8A63F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

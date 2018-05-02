@@ -23,6 +23,16 @@ public:
     MidSideGitAudioProcessor();
     ~MidSideGitAudioProcessor();
 
+	//*******************************************************
+	float getParameter(int index);
+	void setParameter(int index, float newValue);
+	const String getParameterName(int index);
+	const String getParameterText(int index);
+
+	int getModeType();
+	void setModeType(int type);
+
+	//*******************************************************
     //==============================================================================
     void prepareToPlay (double sampleRate, int samplesPerBlock) override;
     void releaseResources() override;
@@ -52,13 +62,33 @@ public:
     const String getProgramName (int index) override;
     void changeProgramName (int index, const String& newName) override;
 
-	void MidSideGitAudioProcessor::processMatrix(AudioSampleBuffer& buffer);
-
+	void processMatrix(AudioSampleBuffer& buffer, float midGain, float sideGain);
+	// void processMid(AudioSampleBuffer& buffer, float midGain, float sideGain);
+	// void processSide(AudioSampleBuffer& buffer, float midGain, float sideGain);
+	
     //==============================================================================
     void getStateInformation (MemoryBlock& destData) override;
     void setStateInformation (const void* data, int sizeInBytes) override;
 
+	enum Parameters {
+		knob1Param,
+		knob2Param
+	};
+
+	float m_mid;
+	float m_side;
+
+
 private:
     //==============================================================================
+
+
+	//*******************************************************
+	float m_knob1;
+	float m_knob2;
+
+
+	int modeType;
+	//*******************************************************
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MidSideGitAudioProcessor)
 };
